@@ -25,7 +25,8 @@ footer{border-top:1px solid var(--line);padding:28px 20px;text-align:center;colo
 .ranks{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.ranks button{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:20px;padding:8px 14px 8px 30px;font:600 14px system-ui;cursor:pointer;position:relative}
 .ranks button::before{content:"";position:absolute;left:11px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--d)}.ranks button.on{border-color:var(--acc);color:var(--acc)}
 .tag.in{position:static;display:inline-block;margin-left:6px;font-size:11px;vertical-align:middle}
-</style></head><body>
+</style><link rel="stylesheet" href="/assets/shop.css">
+</head><body>
 <nav><b>FORGED</b><div><a href="/#app">App</a><a href="/shop/">Shop</a><a href="/#contact">Contact</a></div></nav>
 <main class="wrap">
 <header class="hero"><img src="/img/logo.jpg" alt="FORGED company logo" width="640" height="350">
@@ -39,27 +40,26 @@ footer{border-top:1px solid var(--line);padding:28px 20px;text-align:center;colo
 <a class="btn" id="store-link" href="mailto:hello@forgedfight.com?subject=Notify%20me%20when%20FORGED%20gear%20drops">Get notified</a>
 <h3 class="ph">FORGED Set <small>All black, red trim</small></h3>
 <div class="grid pg">
-<div class="card wide"><span class="tag">Coming soon</span><img src="/img/products/forged-set-rashguard-shorts.webp" alt="FORGED rash guard and fight shorts set" loading="lazy"><p>FORGED Set: rash guard + fight shorts</p></div>
-<div class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-rashguard-long-sleeve.webp" alt="FORGED long sleeve rash guard, front and back" loading="lazy"><p>FORGED rash guard, long sleeve</p></div>
-<div class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-rashguard-short-sleeve.webp" alt="FORGED short sleeve rash guard, front and back" loading="lazy"><p>FORGED rash guard, short sleeve</p></div>
-<div class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-fight-shorts.webp" alt="FORGED fight shorts, front and back" loading="lazy"><p>FORGED fight shorts</p></div>
+<div data-slug="forged-set" class="card wide"><span class="tag">Coming soon</span><img src="/img/products/forged-set-rashguard-shorts.webp" alt="FORGED rash guard and fight shorts set" loading="lazy"><p>FORGED Set: rash guard + fight shorts</p></div>
+<div data-slug="forged-rashguard-long" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-rashguard-long-sleeve.webp" alt="FORGED long sleeve rash guard, front and back" loading="lazy"><p>FORGED rash guard, long sleeve</p></div>
+<div data-slug="forged-rashguard-short" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-rashguard-short-sleeve.webp" alt="FORGED short sleeve rash guard, front and back" loading="lazy"><p>FORGED rash guard, short sleeve</p></div>
+<div data-slug="forged-fight-shorts" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-fight-shorts.webp" alt="FORGED fight shorts, front and back" loading="lazy"><p>FORGED fight shorts</p></div>
 </div>
 <h3 class="ph">BASED SAVAGE Rank Collection <small>Pick your belt</small></h3>
 <div class="ranks" role="group" aria-label="Belt color">
 <button data-c="white" style="--d:#f2f2f2">White</button><button data-c="blue" style="--d:#2d73eb">Blue</button><button data-c="purple" style="--d:#9b55e1">Purple</button><button data-c="brown" style="--d:#be8250">Brown</button><button data-c="black" class="on" style="--d:#d7261e">Black</button>
 </div>
 <div class="grid pg">
-<div class="card"><span class="tag">Coming soon</span><img id="bs-long" src="/img/products/based-savage-black-long-sleeve.webp" alt="BASED SAVAGE long sleeve rash guard" loading="lazy"><p>BASED SAVAGE long sleeve · <span class="bs-c">Black</span> belt</p></div>
-<div class="card"><span class="tag">Coming soon</span><img id="bs-short" src="/img/products/based-savage-black-short-sleeve.webp" alt="BASED SAVAGE short sleeve rash guard" loading="lazy"><p>BASED SAVAGE short sleeve · <span class="bs-c">Black</span> belt</p></div>
+<div data-slug="based-savage-long" data-belt-from="1" class="card"><span class="tag">Coming soon</span><img id="bs-long" src="/img/products/based-savage-black-long-sleeve.webp" alt="BASED SAVAGE long sleeve rash guard" loading="lazy"><p>BASED SAVAGE long sleeve · <span class="bs-c">Black</span> belt</p></div>
+<div data-slug="based-savage-short" data-belt-from="1" class="card"><span class="tag">Coming soon</span><img id="bs-short" src="/img/products/based-savage-black-short-sleeve.webp" alt="BASED SAVAGE short sleeve rash guard" loading="lazy"><p>BASED SAVAGE short sleeve · <span class="bs-c">Black</span> belt</p></div>
 </div>
 <h3 class="ph">More gear</h3>
 <div class="grid">
-<div class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-tee.webp" alt="FORGED FOR THE FIGHT t-shirt, front and back" loading="lazy"><p>FORGED t-shirt</p></div>
-<div class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-hoodie.webp" alt="FORGED FOR THE FIGHT hoodie, front and back" loading="lazy"><p>FORGED hoodie</p></div>
+<div data-slug="forged-tee" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-tee.webp" alt="FORGED FOR THE FIGHT t-shirt, front and back" loading="lazy"><p>FORGED t-shirt</p></div>
+<div data-slug="forged-hoodie" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-hoodie.webp" alt="FORGED FOR THE FIGHT hoodie, front and back" loading="lazy"><p>FORGED hoodie</p></div>
 </div></section>
 <section id="contact"><h2>Contact</h2><p class="sub">Questions, gym partnerships or wholesale: <a href="mailto:hello@forgedfight.com">hello@forgedfight.com</a></p></section>
 </main>
 <footer>© 2026 FORGED · <a href="https://forgedfightapp.github.io/terms.html">Terms</a><a href="https://forgedfightapp.github.io/privacy.html">Privacy</a><a href="mailto:hello@forgedfight.com">hello@forgedfight.com</a></footer>
-<script>document.querySelectorAll('.ranks button').forEach(b=>b.onclick=()=>{const c=b.dataset.c;document.querySelectorAll('.ranks button').forEach(x=>x.classList.toggle('on',x==b));for(const k of['long','short'])document.getElementById('bs-'+k).src='/img/products/based-savage-'+c+'-'+k+'-sleeve.webp';document.querySelectorAll('.bs-c').forEach(e=>e.textContent=b.textContent)});</script>
-<script>if(location.pathname.startsWith('/shop'))addEventListener('load',()=>document.getElementById('shop').scrollIntoView());</script>
+<script src="/assets/shop.js" defer></script>
 </body></html>
