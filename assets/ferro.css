@@ -11,5 +11,3 @@
 .fc-teaser{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;margin-bottom:20px}
 .fc-tc{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--fg);transition:border-color .15s}.fc-tc:hover{border-color:var(--acc)}
 .fc-tc img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}.fc-tc div{padding:12px 16px}.fc-tc b{display:block;text-transform:uppercase;letter-spacing:.06em}.fc-tc span{color:var(--mute);font-size:14px}
-nav .brand{display:flex;flex-direction:column;line-height:1.1;text-decoration:none;color:var(--fg)}nav .brand b{letter-spacing:.2em}nav .brand small{display:flex;align-items:center;gap:5px;margin-top:3px;font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}nav .brand small img{height:13px;width:auto}
-@media(max-width:420px){nav div a{margin-left:12px}}
