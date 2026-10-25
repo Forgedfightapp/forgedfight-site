@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Add a friend on Forged</title><meta name="robots" content="noindex">
+<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0b0b0c;color:#fff;font:16px -apple-system,system-ui,sans-serif;text-align:center}
+.c{padding:28px;max-width:340px}h1{font-size:26px;margin:0 0 8px;letter-spacing:.02em}p{color:#aaa;margin:0 0 20px}a.b{display:block;background:#d62b23;color:#fff;text-decoration:none;font-weight:700;padding:15px;border-radius:14px}</style></head>
+<body><div class="c" id="c"><h1>Page not found</h1><p><a href="/" style="color:#ff6a2b">Go to forgedfight.com</a></p></div>
+<script>
+// forgedfight.com/u/<username>  ->  app with ?add=<username>. Only the public username travels in the link.
+(function(){var m=location.pathname.match(/^\/u\/([A-Za-z0-9_.]{3,20})\/?$/);if(!m)return;
+var u=m[1],app='https://forgedfightapp.github.io/?add='+encodeURIComponent(u),c=document.getElementById('c');
+c.innerHTML='<h1>Add @'+u+'</h1><p>'+'Train with @'+u+' on Forged. Tap below to add them as a friend. New here? You\u2019ll set up first and we\u2019ll add them for you.</p><a class="b" href="'+app+'">Open Forged</a>';
+setTimeout(function(){location.replace(app)},1200);})();
+</script></body></html>
