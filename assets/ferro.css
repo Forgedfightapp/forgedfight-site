@@ -1,0 +1,13 @@
+.fc h2 span{color:var(--acc)}.fc-k{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);margin-bottom:6px}
+.fc-jump{display:flex;margin-top:4px;gap:10px;flex-wrap:wrap}.fc-jump a{border:1px solid var(--line);border-radius:20px;padding:6px 14px;color:var(--fg);text-decoration:none;font-size:14px;font-weight:600}.fc-jump a:hover{border-color:var(--acc);color:var(--acc)}
+.fc-col{margin-top:40px;scroll-margin-top:70px}.fc-col h3{font-size:22px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 14px;border-left:4px solid var(--acc);padding-left:12px}.fc-col h3 small{display:block;color:var(--mute);font-size:14px;font-weight:500;letter-spacing:0;text-transform:none}
+.fc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:16px}
+.fc-card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.fc-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;background:#111}
+.fc-txt{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;background:linear-gradient(135deg,#1b1b1e,#111);border-bottom:2px solid var(--acc)}
+.fc-b{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}.fc-b h4{margin:0;font-size:15px;line-height:1.35}
+.fc-m{display:flex;justify-content:space-between;color:var(--mute);font-size:13px;margin-top:auto}.fc-p{color:var(--fg);font-weight:800;font-size:16px}
+.fc-btn{background:#2a1513;color:#EF4B43;border:1px solid #5a211d;border-radius:10px;padding:10px;font:700 14px system-ui;cursor:not-allowed}
+.fc-teaser{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;margin-bottom:20px}
+.fc-tc{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--fg);transition:border-color .15s}.fc-tc:hover{border-color:var(--acc)}
+.fc-tc img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}.fc-tc div{padding:12px 16px}.fc-tc b{display:block;text-transform:uppercase;letter-spacing:.06em}.fc-tc span{color:var(--mute);font-size:14px}
