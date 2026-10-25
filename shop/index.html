@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FORGED — Forged for the fight</title><meta name="description" content="FORGED: a simple BJJ and fight training log, plus FORGED fight gear.">
+<title>FORGED — Forged for the fight</title><meta name="description" content="FORGED: a simple BJJ and fight training log.">
 <link rel="icon" href="/img/favicon.png"><meta property="og:image" content="https://forgedfight.com/img/logo.jpg">
 <style>
 :root{--bg:#0B0B0C;--card:#151517;--line:#26262a;--fg:#ECECEC;--mute:#9a9aa0;--acc:#D7261E}
@@ -14,51 +14,23 @@ section{padding:56px 0;border-top:1px solid var(--line)}
 .btn{display:inline-block;background:var(--acc);color:#111;font-weight:700;padding:13px 24px;border-radius:10px;text-decoration:none;margin:6px}
 .btn.ghost{background:none;color:var(--fg);border:1px solid var(--line)}
 .feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:20px 0 26px}
-.feat div,.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}
-.card{padding:0;overflow:hidden;position:relative}.card img{width:100%;display:block;aspect-ratio:1;object-fit:cover;background:#111}
-.card p{margin:0;padding:12px 16px;font-weight:600}.card.wide{grid-column:1/-1}.card.wide img{aspect-ratio:auto;object-fit:contain}
+.feat div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
 .tag{position:absolute;top:12px;left:12px;background:var(--acc);color:#111;font-size:12px;font-weight:800;padding:4px 10px;border-radius:20px;text-transform:uppercase}
 footer{border-top:1px solid var(--line);padding:28px 20px;text-align:center;color:var(--mute);font-size:14px}footer a{color:var(--mute);margin:0 8px}
-.ph{margin:34px 0 0;font-size:20px;text-transform:uppercase;letter-spacing:.05em}.ph small{display:block;color:var(--mute);font-size:13px;font-weight:500;letter-spacing:.02em;text-transform:none}
-.pg{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}.pg .card img{aspect-ratio:16/9;object-fit:cover}
-.ranks{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.ranks button{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:20px;padding:8px 14px 8px 30px;font:600 14px system-ui;cursor:pointer;position:relative}
-.ranks button::before{content:"";position:absolute;left:11px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--d)}.ranks button.on{border-color:var(--acc);color:var(--acc)}
+.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:14px;padding:18px 20px;margin-top:16px}.note p{margin:8px 0 0}.note .sub{margin:4px 0 0}
 .tag.in{position:static;display:inline-block;margin-left:6px;font-size:11px;vertical-align:middle}
-</style><link rel="stylesheet" href="/assets/shop.css">
+</style>
 </head><body>
 <nav><b>FORGED</b><div><a href="/#app">App</a><a href="/shop/">Shop</a><a href="/#contact">Contact</a></div></nav>
 <main class="wrap">
 <header class="hero"><img src="/img/logo.jpg" alt="FORGED company logo" width="640" height="350">
-<h1>Forged for <span>the fight</span></h1><p class="sub">Training tools and fight gear for BJJ and MMA athletes.</p>
-<a class="btn" href="https://forgedfightapp.github.io">Open the app</a><a class="btn ghost" href="/shop/">Shop gear</a></header>
+<h1>Forged for <span>the fight</span></h1><p class="sub">Training tools for BJJ and MMA athletes.</p>
+<a class="btn" href="https://forgedfightapp.github.io">Open the app</a><a class="btn ghost" href="/shop/">Shop</a></header>
 <section id="app"><h2>The FORGED app</h2><p class="sub">A simple training log for BJJ and fight sports. Quick inputs, no clutter.</p>
 <div class="feat"><div><b>Log sessions fast</b><br>Type, rounds, time and a one-line note.</div><div><b>Track food &amp; weight</b><br>Daily nutrition and weigh-ins in one place.</div><div><b>Train with friends</b><br>Share clips and photos with your crew.</div></div>
 <a class="btn" href="https://forgedfightapp.github.io">Open the app</a></section>
-<section id="shop"><h2>Shop</h2><p class="sub">FORGED fight gear: rash guards, fight shorts, tees and more. Coming soon.</p>
-<!-- STORE_URL PLACEHOLDER: when the store is live, replace the mailto href on the "Get notified" button below with the store URL (e.g. https://shop.forgedfight.com) and change the text to "Shop now". -->
-<a class="btn" id="store-link" href="mailto:hello@forgedfight.com?subject=Notify%20me%20when%20FORGED%20gear%20drops">Get notified</a>
-<h3 class="ph">FORGED Set <small>All black, red trim</small></h3>
-<div class="grid pg">
-<div data-slug="forged-set" class="card wide"><span class="tag">Coming soon</span><img src="/img/products/forged-set-rashguard-shorts.webp" alt="FORGED rash guard and fight shorts set" loading="lazy"><p>FORGED Set: rash guard + fight shorts</p></div>
-<div data-slug="forged-rashguard-long" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-rashguard-long-sleeve.webp" alt="FORGED long sleeve rash guard, front and back" loading="lazy"><p>FORGED rash guard, long sleeve</p></div>
-<div data-slug="forged-rashguard-short" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-rashguard-short-sleeve.webp" alt="FORGED short sleeve rash guard, front and back" loading="lazy"><p>FORGED rash guard, short sleeve</p></div>
-<div data-slug="forged-fight-shorts" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-fight-shorts.webp" alt="FORGED fight shorts, front and back" loading="lazy"><p>FORGED fight shorts</p></div>
-</div>
-<h3 class="ph">BASED SAVAGE Rank Collection <small>Pick your belt</small></h3>
-<div class="ranks" role="group" aria-label="Belt color">
-<button data-c="white" style="--d:#f2f2f2">White</button><button data-c="blue" style="--d:#2d73eb">Blue</button><button data-c="purple" style="--d:#9b55e1">Purple</button><button data-c="brown" style="--d:#be8250">Brown</button><button data-c="black" class="on" style="--d:#d7261e">Black</button>
-</div>
-<div class="grid pg">
-<div data-slug="based-savage-long" data-belt-from="1" class="card"><span class="tag">Coming soon</span><img id="bs-long" src="/img/products/based-savage-black-long-sleeve.webp" alt="BASED SAVAGE long sleeve rash guard" loading="lazy"><p>BASED SAVAGE long sleeve · <span class="bs-c">Black</span> belt</p></div>
-<div data-slug="based-savage-short" data-belt-from="1" class="card"><span class="tag">Coming soon</span><img id="bs-short" src="/img/products/based-savage-black-short-sleeve.webp" alt="BASED SAVAGE short sleeve rash guard" loading="lazy"><p>BASED SAVAGE short sleeve · <span class="bs-c">Black</span> belt</p></div>
-</div>
-<h3 class="ph">More gear</h3>
-<div class="grid">
-<div data-slug="forged-tee" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-tee.webp" alt="FORGED FOR THE FIGHT t-shirt, front and back" loading="lazy"><p>FORGED t-shirt</p></div>
-<div data-slug="forged-hoodie" class="card"><span class="tag">Coming soon</span><img src="/img/products/forged-hoodie.webp" alt="FORGED FOR THE FIGHT hoodie, front and back" loading="lazy"><p>FORGED hoodie</p></div>
-</div></section>
-<section id="contact"><h2>Contact</h2><p class="sub">Questions, gym partnerships or wholesale: <a href="mailto:hello@forgedfight.com">hello@forgedfight.com</a></p></section>
+<section id="shop"><h2>Shop</h2><div class="note"><span class="tag in">Coming soon</span><p><b>Gear by Ferro Co, coming soon.</b></p><p class="sub">Fight gear is moving to its own brand. Check back here for updates.</p></div></section>
+<section id="contact"><h2>Contact</h2><p class="sub">Questions or gym partnerships: <a href="mailto:hello@forgedfight.com">hello@forgedfight.com</a></p></section>
 </main>
 <footer>© 2026 FORGED · <a href="https://forgedfightapp.github.io/terms.html">Terms</a><a href="https://forgedfightapp.github.io/privacy.html">Privacy</a><a href="mailto:hello@forgedfight.com">hello@forgedfight.com</a></footer>
 <script src="/assets/shop.js" defer></script>
